@@ -1,0 +1,382 @@
+/* Shared custom Styles */
+Body {
+    font-family: "Inter", sans-serif;
+    font-family: "Merriweather", serif;
+    font-family: "Raleway", sans-serif;
+    margin: auto;
+}
+main{
+    max-width: 1320px;
+    margin: auto;
+}
+
+.Primary-text {
+    color: red;
+}
+
+.Section-tile-text {
+    font-family: "Inter", sans-serif;
+    color: red;
+    font-size: 24px;
+    font-weight: 500;
+    margin-bottom: 0px;
+}
+
+.Section-tagline {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 700;
+    margin-top: 10px;
+}
+
+.Section-description {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 400;
+    color: rgba(7, 2, 17, 0.6);
+}
+
+/* Header related styles */
+
+.banner-card {
+    background-image: linear-gradient(to top, rgba(0, 0, 0, 0.186), rgba(0, 0, 0, 0.636)), url("./resources/Banner\ Image.png");
+    background-repeat: no-repeat;
+    background-position: center;;
+    height: 600px;
+    margin: 100px auto;
+    height: 600px; width: 1320px;
+}
+
+
+.banner-text h2 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 80px;
+    margin-bottom: 0px;
+    margin-top: 0;
+}
+
+.banner-text h4 {
+    font-family: "Merriweather", serif;
+    text-align: center;
+    color: #fff;
+    font-size: 25px;
+    margin-bottom: 0;
+}
+
+.banner-text {
+    margin-bottom: 0px;
+    padding: 150px;
+}
+
+/* Promotional Offer Styles */
+
+.promotional-offer {
+    font-family: "inter", serif;
+    padding: 30px 399px;
+    text-align: center;
+}
+
+
+.offer-title {
+    font-size: 88px;
+    font-weight: 700;
+    color: red;
+    text-align: center;
+}
+
+
+
+#Promo-img {
+    align-content: center;
+    margin: auto;
+    width: 802px;
+    height: 500px;
+}
+
+/* Welcome banner related styles */
+.welcome-bg {
+    background-image: linear-gradient(to right, rgba(0, 0, 0, 0.807), rgba(0, 0, 0, 0.1)), url("./resources/Vectorrr.png");
+    background-repeat: no-repeat;
+    background-position: center;
+    width: 100%;
+    height: 600px;
+    margin: 100px auto;
+}
+
+.welcome-banner-container {
+    display: flex;
+    justify-content: space-between;
+    padding: 67px 108px 67px 128px;
+}
+
+.welcome-info {
+    max-width: 500px;
+}
+
+.welcome-title {
+    font-family: "Merriweather", serif;
+    font-size: 64px;
+    font-weight: 900;
+    color: #fff;
+
+}
+
+.welcome-des {
+    font-family: "Inter", sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    color: #fff;
+
+}
+
+.joinow {
+    font-family: "Inter", sans-serif;
+    font-size: 20px;
+    font-weight: 700;
+    color: #fff;
+}
+
+/* Time-schedule related styles */
+.time-schedule-banner {
+    background-image: linear-gradient(to bottom, rgb(246, 190, 190), rgba(255, 0, 0, 0));
+    background-position: center;
+    margin: auto;
+    height: 500px;  
+    border-radius: 15px;
+
+}
+
+.time-date-info {
+    font-family: "Inter", sans-serif;
+    font-size: 32px;
+    font-weight: 600;
+    text-transform: capitalize;
+    line-height: 56px;
+    padding: 35px 380px 20px 380px;
+    text-align: center;
+}
+
+.btn-primary {
+    padding: 16px 32px;
+    border-radius: 10px;
+    border: 0;
+    background-color: red;
+    color: white;
+    font-family: Inter;
+    font-size: 20px;
+    font-weight: 700;
+    line-height: 24px;
+    text-transform: uppercase;
+}
+
+/* Comming Soon Offer */
+.comming-soon-Container {
+    display: flex;
+    justify-content: space-around;
+    max-width: 1320px;
+    margin: auto;
+    margin-top: 40px;
+
+}
+
+.new-best-offer {
+    max-width: 392px;
+    padding-top: 30px;
+}
+
+
+.Section-tagline {
+    font-family: "Merriweather", serif;
+    font-size: 48px;
+    font-weight: 900;
+    margin-top: 22px;
+    margin-bottom: 0px;
+}
+
+
+.new-year-side {
+    max-width: 225px;
+
+}
+
+.new-year-title {
+    font-family: "inter", sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    color: red;
+    margin-bottom: 0;
+}
+
+.new-year-ellipse {
+    height: 420px;
+    width: 420px;
+    border: 15px solid red;
+    border-radius: 50%;
+    justify-content: center;
+}
+
+.new-year-ellipse-img {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+}
+
+/* Holiday sale related styles */
+
+.holiday-sale {
+    justify-content: center;
+    margin-top: 150px;
+}
+
+
+.holiday-tag {
+    font-family: "Merriweather", serif;
+    font-size: 71px;
+    font-weight: 900;
+    margin-bottom: 15px;
+    margin-top: 5px;
+}
+
+
+.holiday-sale-info {
+    text-align: center;
+}
+
+.holiday-image-container {
+    background-image: url("./resources/Rectangle\ 2.png");
+    background-repeat: no-repeat;
+    background-position: bottom;
+    display: flex;
+    height: 700px;
+}
+
+.holiday-image-container-1 {
+    margin: 45px 0px;
+}
+
+.holiday-image-container-2 {
+    background-image: url(./resources/Rectangle\ 1.png);
+    display: flex;
+    background-repeat: no-repeat;
+    
+    height: 429px;
+    width: 433px;
+    margin: 45px 0px 70px 94px;
+}
+
+#discount-label {
+    margin: 60px 0px 0px -160px;
+    height: 300px;
+    width: 300px;
+}
+
+/* Portfolio Related styles */
+
+.Awesome-portfolio-section{
+    margin: 60px 0px;
+    text-align: left;
+    max-width: 1320px;
+}
+
+    
+.portfolio-image-container img{
+    height: 450px;
+    width: 400px;
+    padding: 16px;
+}
+
+/* Newsletter section */
+.newsletter-section{
+    height: 616px;
+    background-color: rgba(255, 0, 0, 0.05);
+    text-align: center;
+}
+.newsletter-container{
+    padding: 80px 200px;
+  
+}
+.newsletter-info{
+    text-align: center;
+    margin-top: 60px 0px;
+    margin-bottom: 40px;
+}
+.Contact input{
+    display: inline;
+    padding: 25px 35px;
+    border: 0px;
+    border-radius: 25px 0px 0px 25px, 0px 25px 25px 0px;
+
+}
+.Contact-form{
+    padding: 40px;
+}
+.btn-secondary{
+    color: white;
+    background-color: red;
+}
+
+.Contact{
+    display: flex;
+    text-align: center;
+    
+}
+input[ type="email"] {
+    padding: 25px 35px;
+    border-radius: 50px 0px 0px 50px;
+    border:0;
+    width: 400px;
+    font-size: 16px;
+}
+input[ type="submit"]{
+    padding: 25px 40px 25px 5px;
+    border-radius: 0px 50px 50px 0px;
+    background-color: rgb(255, 0, 0);
+    border: 0px;
+    color: #fff;
+    width: 210px;
+    font-size: 16px;
+}
+/* footer related styles */
+.address-container{
+    display: flex;
+    gap: 400px;
+    color: #fff;
+    font-size: 16px;
+    text-align: center;
+}
+
+footer{
+    background-color: black;
+
+}
+#address{
+    font-size: 16px;
+    padding: 100px 50px 50px 225px;
+}
+#contact-details{
+   
+    text-align: left;
+    font-size: 16px;
+    padding: 100px 50px 50px 300px;
+}
+.social-links{
+    text-align: center;
+    gap: 15px;
+}
+.social-links img{
+    padding: 0px 5px
+}
+hr{
+    width: 1320px;
+    border: 1px solid rgba(255, 255, 255, 0.15);
+
+}
+.copyrights{
+    display: flex;
+    justify-content: space-around;
+    gap: 500px;
+    color: #fff;
+    gap: 1000px;
+}
